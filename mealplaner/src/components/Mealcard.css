@@ -1,0 +1,70 @@
+.meal-card {
+    margin: 16px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.meal-card-header {
+    background-color: #f5f5f5;
+    padding: 8px 16px;
+}
+
+.meal-card-body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.recipe-item {
+    padding: 8px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.recipe-item:hover {
+    background-color: #f9f9f9;
+}
+
+.recipe-name {
+    font-weight: 500;
+}
+
+.modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    outline: none;
+}
+
+.modal-title {
+    margin-bottom: 16px;
+}
+
+.nutrition-header {
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.nutrition-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.close-button {
+    display: block;
+    margin: 0 auto;
+}

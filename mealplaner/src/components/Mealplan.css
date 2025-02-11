@@ -1,0 +1,38 @@
+.meal-plan-container {
+    margin: 20px auto;
+    padding: 16px;
+    max-width: 1200px;
+}
+
+.my-4 {
+    margin: 1.5rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.days-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.day-column {
+    padding: 8px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.no-meals,
+.no-meal-plan {
+    color: #888;
+    font-style: italic;
+    text-align: center;
+}
