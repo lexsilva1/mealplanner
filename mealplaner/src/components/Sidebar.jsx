@@ -19,7 +19,6 @@ import { targetMealPlan } from '../services/nutri/nutrtiServices';
 import Cookies from 'js-cookie';
 import './Sidebar.css';
 
-
 const Sidebar = ({ setMealPlans }) => {
     const [open, setOpen] = useState(true);
     const [height, setHeight] = useState('');
