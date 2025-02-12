@@ -16,6 +16,7 @@
     "@mui/material": "^6.4.3",
     "bobx": "^1.2.1",
     "js-cookie": "^3.0.5",
+    "mealplaner": "file:",
     "mobx-react-lite": "^4.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
